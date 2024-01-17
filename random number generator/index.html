@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="input-wrapper">
+                <label for="min">Min:</label>
+                <input type="number" name="min" id="min" value="0">
+            </div>
+            <div class="input-wrapper">
+                <label for="max">Max:</label>
+                <input type="number" name="max" id="max" value="10">
+            </div>
+        </div>
+        <div id="error">Minimum value must be lesser than Maximum value!</div>
+        <button id="generate">Generate</button>
+        
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
