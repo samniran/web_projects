@@ -83,4 +83,20 @@ span{
     width: 400px;
     padding: 10px;
 }
+@media only screen and (max-width: 768px) {
+    .hero h3 {
+        margin-top: 10%;
+        font-size: 30px;
+    }
 
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    form input,
+    form select,
+    form button {
+        padding: 10px;
+        height: 40px;
+    }
+}
