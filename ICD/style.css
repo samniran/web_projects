@@ -98,5 +98,10 @@ span{
     form button {
         padding: 10px;
         height: 40px;
+        
+        font-size: 10px;
+    }
+    form{
+        max-width: 85%;
     }
 }
